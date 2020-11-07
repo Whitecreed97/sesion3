@@ -1,7 +1,16 @@
 .container-header{
     width: 100%;
-    height: 200px;
+    height: 30px;
     background-color: aqua;
+}
+
+.encabezado{
+    color: #025157;
+    font-size: 40px;
+}
+
+.encabezado-texto{
+    color: #343434;
 }
 
 .container-section-promo{
@@ -9,16 +18,18 @@
     display: flex;
     width: 70%;
     margin: 100px auto;
-    justify-content: center;
+    justify-content: left;
+    font-size: 20px;
+    font-style: italic;
+    color: #025157;
     /*align-items: center;*/
 
 }
 
-.item-article{
-
-    width: 30%;
-    height: 100px;
-    background-color: rgb(72, 255, 0);
-
-
+.input-email>*{
+    color: rgb(0, 0, 0);
+    background-color: rgb(213, 238, 255);
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
 }
